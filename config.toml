@@ -1,0 +1,160 @@
+baseURL = "https://asvp.my.id/"
+languageCode = "en-us"
+theme = "aafu"
+
+[params]
+    title = "ALFIAN SATRIA VIVALDI PAYU"
+    author = "MAS FIAN 77"
+    description = "Personal Web"
+    copyright = "Powered by ASVP Media & MF77 Channel"
+
+    [params.theme]
+        # Available themes are 'light', 'dark', and 'pinkish'
+        mainTheme = "light"
+        # setting false below will hide 'aafu by darshan' displayed under the profile pic
+        showAttribute = false
+        singlePage = true
+
+    # Profile section
+    [params.profile]
+        name = "Alfian Satria V.P"
+	tagline = "Mobile Developer"
+	location = "Jakarta, ID"
+        photo = "profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-linkedin-in"
+            url = "https://linkedin.com/in/masfian77"
+            title = "LinkedIn"		
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-github"
+            url = "https://github.com/masfian77"
+            title = "GitHub"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-twitter"
+            url = "https://twitter.com/alfian_svp"
+            title = "Twitter"
+	[[params.social.list]]
+            class = "fab"
+            icon = "fa-telegram"
+            url = "https://t.me/alfian_svp"
+            title = "Telegram"	
+	[[params.social.list]]
+            class = "fab"
+            icon = "fa-instagram"
+            url = "https://instagram.com/alfian.svp"
+            title = "Instagram"
+	[[params.social.list]]
+            class = "fab"
+            icon = "fa-facebook"
+            url = "https://facebook.com/alfian.svp"
+            title = "Facebook"
+	[[params.social.list]]
+            class = "fas"
+            icon = "fa-envelope"
+            url = "mailto:takonomas@pm.me"
+            title = "E-mail"
+
+    #Specify what is showin in the Accordion
+    [[params.showInAccordion]]
+        item = "aboutme"
+        expand = true   # true for the section that is initially expanded
+    [[params.showInAccordion]]
+        item = "experience"
+    [[params.showInAccordion]]
+        item = "education"
+    [[params.showInAccordion]]
+        item = "publication"
+    [[params.showInAccordion]]
+        item = "project"
+    [[params.showInAccordion]]
+        item = "skill"
+    [[params.showInAccordion]]
+        item = "hobby"
+
+    [params.aboutme]
+        title = "About Me"
+        icon = "fas fa-user"
+        description = "**Alfian Satria Vivaldi Payu**, I started to learn programming since 2016 where when I was in the school majoring in Software Engineering, until now I like the world of programming especially Android Programming in the scope of Mobile Development, and I like learning new things to improve my abilities and enjoy working in teams."
+
+    # Experience section
+    [params.experience]
+        title = "Experiences"
+        icon = "fas fa-briefcase"
+
+        [[params.experience.list]]
+            position = "Internship"
+            dates = "2019 - *Present*"
+            company = "PT. Integrasi Data Nusantara"
+            details = "Internship Program at Training Center IDN.ID."	
+	[[params.experience.list]]
+            position = "Student & Trainer"
+            dates = "2019 - *Present*"
+            company = "Indonesia Mobile-app Academy"
+            details = "As a Student & Trainer of 1 Year Study Program at IMASTUDIO."	
+	[[params.experience.list]]
+            position = "Student"
+            dates = "2019 - *Present*"
+            company = "IDN Academy"
+            details = "As a Student of 1 Year Study Scholarship Program."
+
+    # Education section
+    [params.education]
+        title = "Education"
+        icon = "fas fa-graduation-cap"
+
+        [[params.education.list]]
+            degree = "Scholarship Program"
+            college = "IDN Academy"
+            dates = "2019 - 2020"
+        [[params.education.list]]
+            degree = "Software Engineering"
+            college = "Vocational High School (SMKN 1 Purwosari)"
+            dates = "2016 - 2019"
+
+    # Project section
+    [params.project]
+        title = "Projects"
+        icon = "fas fa-project-diagram"
+
+        [[params.project.list]]
+            title = "project"
+            url = "#"
+            description = "COMING SOON ..."           
+
+    # Skill section
+    [params.skill]
+        title = "Skills"
+        panelId = "skill-panel"
+        icon = "fas fa-cogs"
+
+        [[params.skill.list]]
+            skill = "Software Engineering"
+            skillrating = 87
+        [[params.skill.list]]
+            skill = "Mobile Development"
+            skillrating = 77
+        [[params.skill.list]]
+            skill = "Web Development"
+            skillrating = 67
+
+    # Hobby section
+    [params.hobby]
+        title = "Hobbys"
+        icon = "fas fa-gamepad"
+		
+        [[params.hobby.list]]		
+		    hobby = "Football"
+        [[params.hobby.list]]		
+		    hobby = "Swimming"
+        [[params.hobby.list]]		
+		    hobby = "Futsal"
+	[[params.hobby.list]]		
+		    hobby = "Archery"
