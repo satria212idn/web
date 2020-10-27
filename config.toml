@@ -6,7 +6,7 @@ theme = "aafu"
     title = "ALFIAN SATRIA VIVALDI PAYU"
     author = "MAS FIAN 77"
     description = "Personal Web"
-    copyright = "Powered by ASVP Media & MF77 Channel"
+    copyright = "https://asvp.my.id"
 
     [params.theme]
         # Available themes are 'light', 'dark', and 'pinkish'
@@ -59,7 +59,7 @@ theme = "aafu"
 	[[params.social.list]]
             class = "fas"
             icon = "fa-envelope"
-            url = "mailto: alfiansatriavivaldipayu@pm.me"
+            url = "mailto:alfiansatriavivaldipayu@pm.me"
             title = "E-mail"
 
     #Specify what is showin in the Accordion
