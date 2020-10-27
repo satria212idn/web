@@ -59,7 +59,7 @@ theme = "aafu"
 	[[params.social.list]]
             class = "fas"
             icon = "fa-envelope"
-            url = "mailto:takonomas@pm.me"
+            url = "mailto: alfiansatriavivaldipayu@pm.me"
             title = "E-mail"
 
     #Specify what is showin in the Accordion
